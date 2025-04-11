@@ -35,7 +35,7 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 db.init_app(app)
 
 # Create tables (only when running locally, not on Vercel)
-if not os.environ.get('VERCEL_REGION'):
+if not os.environ.get('VERCEL'):
     with app.app_context():
         db.create_all()
 
@@ -66,9 +66,18 @@ def success():
     messages = Message.query.order_by(Message.created_at.desc()).all()
     return render_template('success.html', messages=messages)
 
-# This is for Vercel serverless deployment
-def handler(request, **kwargs):
-    return app(request.environ, start_response=request.start_response)
+# This is the handler for Vercel serverless functions
+from http.server import BaseHTTPRequestHandler
+
+def handler(request, context):
+    """Serverless function handler for Vercel."""
+    return {
+        "statusCode": 200,
+        "headers": {
+            "Content-Type": "text/html"
+        },
+        "body": "Redirecting to the main app..."
+    }
 
 # For local development
 if __name__ == "__main__":
