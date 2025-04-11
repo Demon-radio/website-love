@@ -1,0 +1,178 @@
+/* General styling */
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f8e1e8;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+}
+
+.love-card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 30px rgba(249, 157, 190, 0.3);
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Question styling */
+.question {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    color: #ff6b9d;
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 12px 30px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.yes-btn {
+    background-color: #ff6b9d;
+    color: white;
+}
+
+.yes-btn:hover {
+    background-color: #ff4785;
+    transform: scale(1.05);
+}
+
+.no-btn {
+    background-color: #f2f2f2;
+    color: #666;
+}
+
+.no-btn:hover {
+    background-color: #e0e0e0;
+}
+
+/* Bears styling */
+.bears-container {
+    margin-bottom: 20px;
+}
+
+.bears-image {
+    max-width: 60%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Success page styling */
+.success-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: #ff6b9d;
+    margin-bottom: 10px;
+}
+
+.success-message {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.bears-hugging {
+    max-width: 70%;
+    margin: 20px 0;
+}
+
+.message-section {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.message-section h2 {
+    color: #ff6b9d;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+#messages-list {
+    max-height: 300px;
+    overflow-y: auto;
+    margin-bottom: 30px;
+}
+
+.message-card {
+    background-color: #fff5f8;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    border-left: 4px solid #ff6b9d;
+}
+
+.message-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ff6b9d;
+}
+
+.message-date {
+    font-size: 0.8rem;
+    color: #999;
+    margin-bottom: 8px;
+}
+
+.message-text {
+    line-height: 1.5;
+}
+
+.add-message-form {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.add-message-form h3 {
+    color: #ff6b9d;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+#nameInput, #messageInput {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+}
+
+#messageInput {
+    resize: vertical;
+}
+
+.submit-btn {
+    background-color: #ff6b9d;
+    color: white;
+    padding: 12px 25px;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    background-color: #ff4785;
+}
