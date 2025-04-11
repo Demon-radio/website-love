@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I Love You Too!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/success.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div id="loading-container" class="loading-container">
+            <div class="heart-loader">
+                <div class="heart"></div>
+            </div>
+            <p class="loading-text">Loading love...</p>
+        </div>
+        
+        <div id="content-container" class="content-container hidden">
+            <div class="love-card">
+                <h1 class="title">I Love You Too! ❤️</h1>
+                
+                <div class="phone-image-container">
+                    <object id="phoneImage" data="{{ url_for('static', filename='images/bear_phone.svg') }}" type="image/svg+xml" class="phone-image"></object>
+                </div>
+                
+                <div class="message">
+                    <p>Thank you for saying yes! 💕</p>
+                </div>
+                
+                <div class="hug-container">
+                    <object id="hugImage" data="{{ url_for('static', filename='images/bear_hug_animated.svg') }}" type="image/svg+xml" class="hug-image"></object>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="{{ url_for('static', filename='js/success.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <!-- Left Bear (Boy - Brown) -->
+  <g id="boy-bear">
+    <!-- Body -->
+    <ellipse cx="170" cy="200" rx="70" ry="80" fill="#C49A6A" />
+    <!-- Head -->
+    <circle cx="170" cy="120" r="50" fill="#C49A6A" />
+    <!-- Ears -->
+    <circle cx="130" cy="85" r="20" fill="#A37C50" />
+    <circle cx="210" cy="85" r="20" fill="#A37C50" />
+    <!-- Eyes -->
+    <circle cx="155" cy="110" r="8" fill="#43302E" />
+    <circle cx="190" cy="110" r="8" fill="#43302E" />
+    <!-- Eye highlights -->
+    <circle cx="158" cy="107" r="3" fill="white" />
+    <circle cx="193" cy="107" r="3" fill="white" />
+    <!-- Nose -->
+    <ellipse cx="170" cy="128" rx="15" ry="10" fill="#8B5A50" />
+    <!-- Smile -->
+    <path d="M155,145 Q170,160 185,145" stroke="#43302E" stroke-width="3" fill="none" />
+    <!-- Blush -->
+    <circle cx="140" cy="135" r="10" fill="#E3A5A5" opacity="0.6" />
+    <circle cx="200" cy="135" r="10" fill="#E3A5A5" opacity="0.6" />
+    
+    <!-- Phone in hand -->
+    <g id="phone">
+      <!-- Phone body -->
+      <rect x="115" y="190" width="40" height="70" rx="5" ry="5" fill="#555" />
+      <!-- Phone screen -->
+      <rect x="120" y="195" width="30" height="55" rx="2" ry="2" fill="#6EB5FF" />
+      <!-- Heart on screen -->
+      <path d="M135,215 
+              C140,210 145,210 145,215
+              C145,225 135,230 135,230
+              C135,230 125,225 125,215
+              C125,210 130,210 135,215" 
+            fill="#FF6B6B" />
+    </g>
+    
+    <!-- Arms -->
+    <ellipse cx="115" cy="190" rx="15" ry="25" fill="#C49A6A" transform="rotate(20,115,190)" />
+    <ellipse cx="225" cy="200" rx="15" ry="25" fill="#C49A6A" transform="rotate(-30,225,200)" />
+    
+    <!-- Legs -->
+    <ellipse cx="140" cy="270" rx="25" ry="15" fill="#C49A6A" transform="rotate(20,140,270)" />
+    <ellipse cx="200" cy="270" rx="25" ry="15" fill="#C49A6A" transform="rotate(-20,200,270)" />
+  </g>
+  
+  <!-- Right Bear (Girl - White) -->
+  <g id="girl-bear">
+    <!-- Body -->
+    <ellipse cx="320" cy="200" rx="70" ry="80" fill="#DFB995" />
+    <!-- Head -->
+    <circle cx="320" cy="120" r="50" fill="#DFB995" />
+    <!-- Ears -->
+    <circle cx="280" cy="85" r="20" fill="#C49A6A" />
+    <circle cx="360" cy="85" r="20" fill="#C49A6A" />
+    
+    <!-- Pulling boy's cheeks - hands -->
+    <ellipse cx="215" cy="130" rx="15" ry="20" fill="#DFB995" transform="rotate(30,215,130)" />
+    
+    <!-- Eyes -->
+    <circle cx="305" cy="110" r="8" fill="#43302E" />
+    <circle cx="335" cy="110" r="8" fill="#43302E" />
+    
+    <!-- Winking eye (right eye) -->
+    <path d="M330,110 Q335,112 340,110" stroke="#43302E" stroke-width="3" fill="none" />
+    
+    <!-- Eye highlights -->
+    <circle cx="308" cy="107" r="3" fill="white" />
+    
+    <!-- Nose -->
+    <ellipse cx="320" cy="128" rx="15" ry="10" fill="#8B5A50" />
+    
+    <!-- Playful smile -->
+    <path d="M310,150 Q320,135 330,150" stroke="#43302E" stroke-width="3" fill="none" />
+    
+    <!-- Blush -->
+    <circle cx="290" cy="135" r="10" fill="#E3A5A5" opacity="0.8" />
+    <circle cx="350" cy="135" r="10" fill="#E3A5A5" opacity="0.8" />
+    
+    <!-- Arms -->
+    <ellipse cx="260" cy="150" rx="15" ry="40" fill="#DFB995" transform="rotate(-30,260,150)" />
+    <ellipse cx="370" cy="190" rx="15" ry="25" fill="#DFB995" transform="rotate(-20,370,190)" />
+    
+    <!-- Legs -->
+    <ellipse cx="290" cy="270" rx="25" ry="15" fill="#DFB995" transform="rotate(20,290,270)" />
+    <ellipse cx="350" cy="270" rx="25" ry="15" fill="#DFB995" transform="rotate(-20,350,270)" />
+    
+    <!-- Hair bow -->
+    <path d="M320,70 
+            Q350,50 360,70
+            Q350,90 320,70" 
+          fill="#FF6B6B" />
+    <path d="M320,70 
+            Q290,50 280,70
+            Q290,90 320,70" 
+          fill="#FF6B6B" />
+    <circle cx="320" cy="70" r="8" fill="#FF6B6B" />
+  </g>
+  
+  <!-- Hearts floating around -->
+  <g id="floating-hearts">
+    <path d="M250,60 
+             C260,45 275,45 275,60
+             C275,75 250,90 250,90
+             C250,90 225,75 225,60
+             C225,45 240,45 250,60" 
+          fill="#FF6B6B" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.9;0.7" dur="2s" repeatCount="indefinite" />
+    </path>
+    
+    <path d="M200,100 
+             C210,85 225,85 225,100
+             C225,115 200,130 200,130
+             C200,130 175,115 175,100
+             C175,85 190,85 200,100" 
+          fill="#FF6B6B" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.8;0.5" dur="3s" repeatCount="indefinite" />
+    </path>
+    
+    <path d="M350,100 
+             C360,85 375,85 375,100
+             C375,115 350,130 350,130
+             C350,130 325,115 325,100
+             C325,85 340,85 350,100" 
+          fill="#FF6B6B" opacity="0.6">
+      <animate attributeName="opacity" values="0.6;0.9;0.6" dur="2.5s" repeatCount="indefinite" />
+    </path>
+    
+    <path d="M400,180 
+             C410,165 425,165 425,180
+             C425,195 400,210 400,210
+             C400,210 375,195 375,180
+             C375,165 390,165 400,180" 
+          fill="#FF6B6B" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.7;0.4" dur="3.5s" repeatCount="indefinite" />
+    </path>
+    
+    <path d="M100,180 
+             C110,165 125,165 125,180
+             C125,195 100,210 100,210
+             C100,210 75,195 75,180
+             C75,165 90,165 100,180" 
+          fill="#FF6B6B" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.8;0.5" dur="2.8s" repeatCount="indefinite" />
+    </path>
+  </g>
+</svg>

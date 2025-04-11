@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <!-- Left Bear (Boy - Brown) -->
+  <g id="boy-bear">
+    <!-- Body -->
+    <ellipse cx="150" cy="200" rx="70" ry="80" fill="#C49A6A" />
+    <!-- Head -->
+    <circle cx="150" cy="120" r="50" fill="#C49A6A" />
+    <!-- Ears -->
+    <circle cx="110" cy="85" r="20" fill="#A37C50" />
+    <circle cx="190" cy="85" r="20" fill="#A37C50" />
+    <!-- Inner ears -->
+    <circle cx="110" cy="85" r="10" fill="#E3BAAA" />
+    <circle cx="190" cy="85" r="10" fill="#E3BAAA" />
+    <!-- Eyes -->
+    <circle cx="130" cy="110" r="10" fill="white" />
+    <circle cx="170" cy="110" r="10" fill="white" />
+    <circle cx="130" cy="110" r="6" fill="#43302E" />
+    <circle cx="170" cy="110" r="6" fill="#43302E" />
+    <!-- Eye highlights -->
+    <circle cx="133" cy="107" r="3" fill="white" />
+    <circle cx="173" cy="107" r="3" fill="white" />
+    <circle cx="127" cy="113" r="1.5" fill="white" />
+    <circle cx="167" cy="113" r="1.5" fill="white" />
+    <!-- Nose -->
+    <ellipse cx="150" cy="130" rx="12" ry="8" fill="#8B5A50" />
+    <!-- Mouth -->
+    <path d="M140,145 Q150,155 160,145" stroke="#43302E" stroke-width="3" fill="none" />
+    <!-- Blush -->
+    <circle cx="120" cy="135" r="12" fill="#E3A5A5" opacity="0.6" />
+    <circle cx="180" cy="135" r="12" fill="#E3A5A5" opacity="0.6" />
+    <!-- Arms -->
+    <ellipse cx="95" cy="190" rx="25" ry="15" fill="#C49A6A" transform="rotate(-20,95,190)" />
+    <ellipse cx="205" cy="190" rx="25" ry="15" fill="#C49A6A" transform="rotate(20,205,190)" />
+    <!-- Legs -->
+    <ellipse cx="120" cy="270" rx="25" ry="15" fill="#C49A6A" transform="rotate(20,120,270)" />
+    <ellipse cx="180" cy="270" rx="25" ry="15" fill="#C49A6A" transform="rotate(-20,180,270)" />
+  </g>
+  
+  <!-- Right Bear (Girl - White) -->
+  <g id="girl-bear">
+    <!-- Body -->
+    <ellipse cx="350" cy="200" rx="70" ry="80" fill="#DFB995" />
+    <!-- Head -->
+    <circle cx="350" cy="120" r="50" fill="#DFB995" />
+    <!-- Ears -->
+    <circle cx="310" cy="85" r="20" fill="#C49A6A" />
+    <circle cx="390" cy="85" r="20" fill="#C49A6A" />
+    <!-- Inner ears -->
+    <circle cx="310" cy="85" r="10" fill="#EDCFB3" />
+    <circle cx="390" cy="85" r="10" fill="#EDCFB3" />
+    <!-- Eyes -->
+    <circle cx="330" cy="110" r="10" fill="white" />
+    <circle cx="370" cy="110" r="10" fill="white" />
+    <circle cx="330" cy="110" r="6" fill="#43302E" />
+    <circle cx="370" cy="110" r="6" fill="#43302E" />
+    <!-- Eye highlights -->
+    <circle cx="333" cy="107" r="3" fill="white" />
+    <circle cx="373" cy="107" r="3" fill="white" />
+    <circle cx="327" cy="113" r="1.5" fill="white" />
+    <circle cx="367" cy="113" r="1.5" fill="white" />
+    <!-- Nose -->
+    <ellipse cx="350" cy="130" rx="12" ry="8" fill="#8B5A50" />
+    <!-- Mouth -->
+    <path d="M340,145 Q350,155 360,145" stroke="#43302E" stroke-width="3" fill="none" />
+    <!-- Blush -->
+    <circle cx="320" cy="135" r="12" fill="#E3A5A5" opacity="0.7" />
+    <circle cx="380" cy="135" r="12" fill="#E3A5A5" opacity="0.7" />
+    <!-- Hair bow -->
+    <path d="M350,70 
+            Q370,50 380,70
+            Q370,90 350,70" 
+          fill="#FF6B6B" />
+    <path d="M350,70 
+            Q330,50 320,70
+            Q330,90 350,70" 
+          fill="#FF6B6B" />
+    <circle cx="350" cy="70" r="8" fill="#FF6B6B" />
+    <!-- Arms -->
+    <ellipse cx="295" cy="190" rx="25" ry="15" fill="#DFB995" transform="rotate(-20,295,190)" />
+    <ellipse cx="405" cy="190" rx="25" ry="15" fill="#DFB995" transform="rotate(20,405,190)" />
+    <!-- Legs -->
+    <ellipse cx="320" cy="270" rx="25" ry="15" fill="#DFB995" transform="rotate(20,320,270)" />
+    <ellipse cx="380" cy="270" rx="25" ry="15" fill="#DFB995" transform="rotate(-20,380,270)" />
+  </g>
+  
+  <!-- Hearts between bears -->
+  <g id="hearts">
+    <path d="M250,150 
+             C270,120 300,120 300,150
+             C300,180 250,200 250,200
+             C250,200 200,180 200,150
+             C200,120 230,120 250,150" 
+          fill="#FF6B6B" opacity="0.8" />
+    
+    <path d="M230,180 
+             C240,160 255,160 255,180
+             C255,200 230,210 230,210
+             C230,210 205,200 205,180
+             C205,160 220,160 230,180" 
+          fill="#FF6B6B" opacity="0.6" />
+    
+    <path d="M270,180 
+             C280,160 295,160 295,180
+             C295,200 270,210 270,210
+             C270,210 245,200 245,180
+             C245,160 260,160 270,180" 
+          fill="#FF6B6B" opacity="0.6" />
+          
+    <!-- Additional small hearts -->
+    <path d="M180,130 
+             C190,110 205,110 205,130
+             C205,150 180,160 180,160
+             C180,160 155,150 155,130
+             C155,110 170,110 180,130" 
+          fill="#FF6B6B" opacity="0.5" />
+          
+    <path d="M320,130 
+             C330,110 345,110 345,130
+             C345,150 320,160 320,160
+             C320,160 295,150 295,130
+             C295,110 310,110 320,130" 
+          fill="#FF6B6B" opacity="0.5" />
+    
+    <path d="M250,90 
+             C260,70 275,70 275,90
+             C275,110 250,120 250,120
+             C250,120 225,110 225,90
+             C225,70 240,70 250,90" 
+          fill="#FF6B6B" opacity="0.7" />
+  </g>
+  
+  <!-- Sparkles -->
+  <g id="sparkles">
+    <circle cx="120" cy="70" r="2" fill="#FFD700" />
+    <circle cx="380" cy="70" r="2" fill="#FFD700" />
+    <circle cx="210" cy="50" r="2" fill="#FFD700" />
+    <circle cx="290" cy="50" r="2" fill="#FFD700" />
+    <circle cx="250" cy="30" r="3" fill="#FFD700" />
+    <circle cx="150" cy="230" r="2" fill="#FFD700" />
+    <circle cx="350" cy="230" r="2" fill="#FFD700" />
+    <circle cx="250" cy="280" r="3" fill="#FFD700" />
+  </g>
+</svg>
