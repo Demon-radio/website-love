@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do You Love Me?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="love-card">
+            <div class="bears-container">
+                <object id="bearsImage" data="{{ url_for('static', filename='images/bears.svg') }}" type="image/svg+xml" class="bears-image"></object>
+            </div>
+            
+            <div id="question-container">
+                <h1 class="question">Do you love me?</h1>
+                <div class="buttons-container">
+                    <button id="yesButton" class="btn yes-btn">Yes</button>
+                    <button id="noButton" class="btn no-btn">No</button>
+                </div>
+            </div>
+            
+            <div id="success-container" class="success-container hidden">
+                <h2 class="success-message">I knew it!</h2>
+                <object id="heartImage" data="{{ url_for('static', filename='images/heart.svg') }}" type="image/svg+xml" class="heart-image"></object>
+                <object id="bearHugImage" data="{{ url_for('static', filename='images/bear_hug.svg') }}" type="image/svg+xml" class="bear-hug-image"></object>
+            </div>
+        </div>
+    </div>
+    
+    <div id="falling-hearts-container" class="hidden"></div>
+    
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

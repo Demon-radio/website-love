@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="500" height="400">
+  <!-- Left Bear -->
+  <g id="left-bear">
+    <!-- Body -->
+    <ellipse cx="170" cy="200" rx="70" ry="80" fill="#C49A6A" />
+    <!-- Head -->
+    <circle cx="170" cy="120" r="50" fill="#C49A6A" />
+    <!-- Ears -->
+    <circle cx="130" cy="85" r="20" fill="#A37C50" />
+    <circle cx="210" cy="85" r="20" fill="#A37C50" />
+    <!-- Eyes -->
+    <circle cx="155" cy="110" r="8" fill="#43302E" />
+    <circle cx="190" cy="110" r="8" fill="#43302E" />
+    <!-- Eye highlights -->
+    <circle cx="158" cy="107" r="3" fill="white" />
+    <circle cx="193" cy="107" r="3" fill="white" />
+    <!-- Nose -->
+    <ellipse cx="170" cy="128" rx="15" ry="10" fill="#8B5A50" />
+    <!-- Mouth -->
+    <path d="M160,145 Q170,155 180,145" stroke="#43302E" stroke-width="3" fill="none" />
+    <!-- Blush -->
+    <circle cx="140" cy="135" r="10" fill="#E3A5A5" opacity="0.6" />
+    <circle cx="200" cy="135" r="10" fill="#E3A5A5" opacity="0.6" />
+    <!-- Arms (hugging) -->
+    <ellipse cx="135" cy="190" rx="15" ry="25" fill="#C49A6A" transform="rotate(20,135,190)" />
+    <ellipse cx="225" cy="170" rx="15" ry="60" fill="#C49A6A" transform="rotate(20,225,170)" />
+    <!-- Legs -->
+    <ellipse cx="140" cy="270" rx="25" ry="15" fill="#C49A6A" transform="rotate(20,140,270)" />
+    <ellipse cx="200" cy="270" rx="25" ry="15" fill="#C49A6A" transform="rotate(-20,200,270)" />
+  </g>
+  
+  <!-- Right Bear -->
+  <g id="right-bear">
+    <!-- Body -->
+    <ellipse cx="330" cy="200" rx="70" ry="80" fill="#DFB995" />
+    <!-- Head -->
+    <circle cx="330" cy="120" r="50" fill="#DFB995" />
+    <!-- Ears -->
+    <circle cx="290" cy="85" r="20" fill="#C49A6A" />
+    <circle cx="370" cy="85" r="20" fill="#C49A6A" />
+    <!-- Eyes -->
+    <circle cx="310" cy="110" r="8" fill="#43302E" />
+    <circle cx="345" cy="110" r="8" fill="#43302E" />
+    <!-- Eye highlights -->
+    <circle cx="313" cy="107" r="3" fill="white" />
+    <circle cx="348" cy="107" r="3" fill="white" />
+    <!-- Nose -->
+    <ellipse cx="330" cy="128" rx="15" ry="10" fill="#8B5A50" />
+    <!-- Mouth -->
+    <path d="M320,145 Q330,155 340,145" stroke="#43302E" stroke-width="3" fill="none" />
+    <!-- Blush -->
+    <circle cx="300" cy="135" r="10" fill="#E3A5A5" opacity="0.6" />
+    <circle cx="360" cy="135" r="10" fill="#E3A5A5" opacity="0.6" />
+    <!-- Arms (hugging) -->
+    <ellipse cx="365" cy="190" rx="15" ry="25" fill="#DFB995" transform="rotate(-20,365,190)" />
+    <ellipse cx="275" cy="170" rx="15" ry="60" fill="#DFB995" transform="rotate(-20,275,170)" />
+    <!-- Legs -->
+    <ellipse cx="300" cy="270" rx="25" ry="15" fill="#DFB995" transform="rotate(20,300,270)" />
+    <ellipse cx="360" cy="270" rx="25" ry="15" fill="#DFB995" transform="rotate(-20,360,270)" />
+  </g>
+  
+  <!-- Hearts floating around -->
+  <g id="hearts">
+    <path d="M250,80 
+             C260,65 275,65 275,80
+             C275,95 250,110 250,110
+             C250,110 225,95 225,80
+             C225,65 240,65 250,80" 
+          fill="#FF6B6B" opacity="0.8" />
+    
+    <path d="M200,110 
+             C210,95 225,95 225,110
+             C225,125 200,140 200,140
+             C200,140 175,125 175,110
+             C175,95 190,95 200,110" 
+          fill="#FF6B6B" opacity="0.7" />
+    
+    <path d="M300,110 
+             C310,95 325,95 325,110
+             C325,125 300,140 300,140
+             C300,140 275,125 275,110
+             C275,95 290,95 300,110" 
+          fill="#FF6B6B" opacity="0.7" />
+          
+    <path d="M180,180 
+             C190,165 205,165 205,180
+             C205,195 180,210 180,210
+             C180,210 155,195 155,180
+             C155,165 170,165 180,180" 
+          fill="#FF6B6B" opacity="0.6" />
+          
+    <path d="M320,180 
+             C330,165 345,165 345,180
+             C345,195 320,210 320,210
+             C320,210 295,195 295,180
+             C295,165 310,165 320,180" 
+          fill="#FF6B6B" opacity="0.6" />
+          
+    <path d="M250,40 
+             C260,25 275,25 275,40
+             C275,55 250,70 250,70
+             C250,70 225,55 225,40
+             C225,25 240,25 250,40" 
+          fill="#FF6B6B" opacity="0.5" />
+  </g>
+</svg>

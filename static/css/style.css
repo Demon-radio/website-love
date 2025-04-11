@@ -1,0 +1,224 @@
+:root {
+    --primary-color: #ff6b6b;
+    --secondary-color: #4ecdc4;
+    --accent-color: #ffd166;
+    --text-color: #444;
+    --light-bg: #fff5f5;
+    --card-bg: #ffffff;
+    --shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+    --btn-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    --transition: all 0.3s ease;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: var(--light-bg);
+    color: var(--text-color);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 1rem;
+    z-index: 10;
+}
+
+.love-card {
+    background-color: var(--card-bg);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: var(--shadow);
+    position: relative;
+    transition: var(--transition);
+}
+
+.bears-container {
+    margin-bottom: 2rem;
+}
+
+.bears-image, .heart-image, .bear-hug-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.heart-image {
+    margin: 2rem auto;
+    transition: transform 0.5s ease;
+}
+
+.bear-hug-image {
+    margin: 2rem auto;
+}
+
+.question {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transform-origin: center;
+    box-shadow: var(--btn-shadow);
+    transition: var(--transition);
+}
+
+.yes-btn {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.yes-btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 15px rgba(255, 107, 107, 0.4);
+}
+
+.no-btn {
+    background-color: var(--secondary-color);
+    color: white;
+    position: relative;
+}
+
+.no-btn:hover {
+    animation: shake 0.5s ease;
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+.success-container {
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: opacity 0.5s ease, height 0.5s ease;
+}
+
+.success-container.active {
+    opacity: 1;
+    height: auto;
+    overflow: visible;
+}
+
+.success-message {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    margin-bottom: 1.5rem;
+    animation: popIn 0.5s ease forwards;
+}
+
+.hidden {
+    display: none;
+}
+
+#falling-hearts-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 5;
+}
+
+.falling-heart {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    pointer-events: none;
+    will-change: transform;
+    animation: fall linear forwards;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateY(-20px) rotate(0deg) scale(0.3);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(calc(100vh + 20px)) rotate(360deg) scale(0.7);
+        opacity: 0;
+    }
+}
+
+@keyframes popIn {
+    0% { transform: scale(0); opacity: 0; }
+    80% { transform: scale(1.1); opacity: 1; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes float {
+    0% { transform: translateY(0px); }
+    50% { transform: translateY(-10px); }
+    100% { transform: translateY(0px); }
+}
+
+.float-animation {
+    animation: float 3s ease-in-out infinite;
+}
+
+@keyframes heartBeat {
+    0% { transform: scale(1); }
+    14% { transform: scale(1.1); }
+    28% { transform: scale(1); }
+    42% { transform: scale(1.1); }
+    70% { transform: scale(1); }
+}
+
+.heart-beat {
+    animation: heartBeat 1.5s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    .question {
+        font-size: 1.5rem;
+    }
+    
+    .buttons-container {
+        gap: 1rem;
+    }
+    
+    .btn {
+        font-size: 1rem;
+        padding: 0.7rem 1.5rem;
+    }
+    
+    .success-message {
+        font-size: 2rem;
+    }
+}

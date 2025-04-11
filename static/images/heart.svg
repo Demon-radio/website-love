@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <path d="M150,60 
+           C200,0 300,20 300,100
+           C300,200 150,280 150,280
+           C150,280 0,200 0,100
+           C0,20 100,0 150,60" 
+        fill="#FF6B6B" />
+  
+  <!-- Highlight/shine effect -->
+  <path d="M70,80 
+           C90,50 130,60 135,90
+           C85,60 65,95 70,80" 
+        fill="#FFA5A5" />
+</svg>
