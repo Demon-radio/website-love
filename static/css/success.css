@@ -147,13 +147,13 @@ body {
     margin-bottom: 2rem;
 }
 
-.phone-image, .hug-image {
+.phone-image, .hug-image, .bears-image {
     width: 100%;
     max-width: 400px;
     height: auto;
     display: block;
     margin: 0 auto;
-    animation: float 3s ease-in-out infinite;
+    border-radius: 15px;
 }
 
 .message {
