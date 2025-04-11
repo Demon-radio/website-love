@@ -29,6 +29,14 @@ body {
     position: relative;
 }
 
+.copyright {
+    font-size: 0.8rem;
+    color: #888;
+    margin-top: 2rem;
+    text-align: center;
+    font-weight: 300;
+}
+
 .container {
     width: 100%;
     max-width: 800px;
