@@ -11,7 +11,9 @@ app = Flask(__name__)
 app.secret_key = os.environ.get("SESSION_SECRET", "dev-secret-key")
 
 # Configure the database
-app.config["SQLALCHEMY_DATABASE_URI"] = os.environ.get("DATABASE_URL", "sqlite:///love.db")
+# Use PostgreSQL in production (Vercel) and SQLite locally
+db_url = os.environ.get("DATABASE_URL", "sqlite:///love.db")
+app.config["SQLALCHEMY_DATABASE_URI"] = db_url
 app.config["SQLALCHEMY_ENGINE_OPTIONS"] = {
     "pool_recycle": 300,
     "pool_pre_ping": True,
@@ -21,9 +23,10 @@ app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False
 # Initialize the database with the app
 db.init_app(app)
 
-# Create tables
-with app.app_context():
-    db.create_all()
+# Create tables (only when running locally, not on Vercel)
+if not os.environ.get('VERCEL_REGION'):
+    with app.app_context():
+        db.create_all()
 
 @app.route('/')
 def index():

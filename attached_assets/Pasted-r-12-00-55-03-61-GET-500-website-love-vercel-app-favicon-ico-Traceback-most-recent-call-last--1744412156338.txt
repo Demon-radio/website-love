@@ -1,0 +1,208 @@
+r 12 00:55:03.61
+GET
+500
+website-love.vercel.app
+/favicon.ico
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:55:02.97
+GET
+500
+website-love.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:53.22
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.png
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:50.91
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.png
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:49.55
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.png
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:49.25
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.ico
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:46.92
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.ico
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:46.86
+GET
+500
+website-love.vercel.app
+/favicon.ico
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:45.98
+GET
+500
+website-love.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:45.53
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.ico
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:45.14
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:50:43.80
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:58.59
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.ico
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:58.43
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.ico
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:58.21
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:58.09
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:57.83
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:57.71
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:56.45
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.ico
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:56.14
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/favicon.ico
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:56.10
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:55.76
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:55.59
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:55.45
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:55.38
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:55.21
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:53.94
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:53.89
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:53.12
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:52.86
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:51.21
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue. Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+Apr 12 00:49:51.21
+GET
+500
+website-love-88apeblf5-demon-radios-projects.vercel.app
+/
+Traceback (most recent call last): File "/var/task/vc__handler__python.py", line 14, in <module> __vc_spec.loader.exec_module(__vc_module) File "<frozen importlib._bootstrap_external>", line 999, in exec_module File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed File "/var/task/index.py", line 1, in <module> from main import app File "/var/task/main.py", line 3, in <module> from flask import Flask, render_template ModuleNotFoundError: No module named 'flask' Python process exited with exit status: 1. The logs above can help with debugging the issue.
+No more logs to show within selected timeline
+
+Logs
+1 Error
+
+Traceback (most recent call last):
+File "/var/task/vc__handler__python.py", line 14, in <module>
+__vc_spec.loader.exec_module(__vc_module)
+File "<frozen importlib._bootstrap_external>", line 999, in exec_module
+File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+File "/var/task/index.py", line 1, in <module>
+from main import app
+File "/var/task/main.py", line 3, in <module>
+from flask import Flask, render_template
+ModuleNotFoundError: No module named 'flask'
+Python process exited with exit status: 1. The logs above can help with debugging the issue.
