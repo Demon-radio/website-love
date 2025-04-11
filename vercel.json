@@ -5,10 +5,9 @@
       "src": "index.py",
       "use": "@vercel/python",
       "config": {
-        "pip_path": "pip3",
-        "pythonVersion": "3.9",
-        "includeFiles": ["vercel_requirements.txt"],
-        "installCommand": "pip3 install -r vercel_requirements.txt"
+        "runtime": "python3.9",
+        "maxLambdaSize": "15mb",
+        "buildCommand": "pip install -r vercel_requirements.txt"
       }
     },
     {
