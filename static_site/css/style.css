@@ -8,6 +8,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    overflow-x: hidden;
     color: #333;
 }
 
@@ -175,4 +176,52 @@ body {
 
 .submit-btn:hover {
     background-color: #ff4785;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .love-card {
+        padding: 20px 15px;
+    }
+    
+    .question {
+        font-size: 2rem;
+    }
+    
+    .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+    }
+    
+    .bears-image {
+        max-width: 80%;
+    }
+    
+    .bears-hugging {
+        max-width: 85%;
+    }
+    
+    .message-section h2 {
+        font-size: 1.3rem;
+    }
+    
+    .add-message-form {
+        padding: 15px;
+    }
+    
+    #nameInput, #messageInput {
+        padding: 10px;
+    }
+    
+    .success-title {
+        font-size: 2rem;
+    }
+    
+    .success-message {
+        font-size: 1rem;
+    }
 }
