@@ -36,28 +36,9 @@ with app.app_context():
 def index():
     return render_template('index.html')
 
-@app.route('/success', methods=['GET', 'POST'])
+@app.route('/success')
 def success():
-    if request.method == 'POST':
-        name = request.form.get('name')
-        message = request.form.get('message')
-        
-        # Validate form data
-        if not name or not message:
-            flash('Please fill out both fields!')
-            return redirect(url_for('success'))
-        
-        # Create new message
-        new_message = Message(name=name, message=message)
-        db.session.add(new_message)
-        db.session.commit()
-        
-        # Show thank you message
-        flash('Thank you for your sweet message! ❤️')
-        
-    # Get all messages to display
-    messages = Message.query.order_by(Message.created_at.desc()).all()
-    return render_template('success.html', messages=messages)
+    return render_template('success.html')
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=5000, debug=True)
