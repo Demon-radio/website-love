@@ -1,8 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const loadingContainer = document.getElementById('loading-container');
     const contentContainer = document.getElementById('content-container');
-    const phoneImage = document.getElementById('phoneImage');
-    const hugImage = document.getElementById('hugImage');
+    const bearsImage = document.getElementById('bearsImage');
     
     // Simulate loading time
     setTimeout(function() {
@@ -15,13 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
             contentContainer.classList.add('active');
         }, 100);
         
-        // Add animations to images
-        phoneImage.classList.add('float-animation');
+        // Add animations to the bears image if it exists
+        if (bearsImage) {
+            bearsImage.classList.add('float-animation');
+        }
         
-        // Wait a bit before showing the hug image
-        setTimeout(() => {
-            hugImage.classList.add('float-animation');
-        }, 2000);
-        
-    }, 3000); // 3 seconds loading time
+    }, 2000); // 2 seconds loading time
 });

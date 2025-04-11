@@ -93,8 +93,17 @@ body {
     0% {
         transform: scale(0.8) rotate(-45deg);
     }
-    100% {
+    25% {
+        transform: scale(1.0) rotate(-25deg);
+    }
+    50% {
         transform: scale(1.1) rotate(-45deg);
+    }
+    75% {
+        transform: scale(1.0) rotate(-65deg);
+    }
+    100% {
+        transform: scale(0.8) rotate(-45deg);
     }
 }
 
