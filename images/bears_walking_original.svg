@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+   <g>
+       <!-- First Bear -->
+       <ellipse fill="#a67c52" cx="100" cy="100" rx="40" ry="45"/>
+       <!-- Head -->
+       <ellipse fill="#a67c52" cx="100" cy="60" rx="30" ry="25"/>
+       <!-- Ears -->
+       <ellipse fill="#7d5a3c" cx="80" cy="45" rx="10" ry="10"/>
+       <ellipse fill="#7d5a3c" cx="120" cy="45" rx="10" ry="10"/>
+       <!-- Inner Ears -->
+       <ellipse fill="#e6c5a9" cx="82" cy="45" rx="5" ry="5"/>
+       <ellipse fill="#e6c5a9" cx="118" cy="45" rx="5" ry="5"/>
+       <!-- Face -->
+       <ellipse fill="#e6c5a9" cx="100" cy="65" rx="20" ry="18"/>
+       <!-- Eyes -->
+       <ellipse fill="#000" cx="90" cy="60" rx="3" ry="3"/>
+       <ellipse fill="#000" cx="110" cy="60" rx="3" ry="3"/>
+       <!-- Nose -->
+       <ellipse fill="#4f3222" cx="100" cy="70" rx="6" ry="4"/>
+       <!-- Mouth -->
+       <path fill="none" stroke="#4f3222" stroke-width="2" d="M95,78 Q100,82 105,78"/>
+       <!-- Arms -->
+       <ellipse fill="#a67c52" cx="70" cy="110" rx="10" ry="20" transform="rotate(-20 70 110)"/>
+       <ellipse fill="#a67c52" cx="130" cy="110" rx="10" ry="20" transform="rotate(20 130 110)"/>
+       <!-- Legs -->
+       <ellipse fill="#a67c52" cx="80" cy="140" rx="10" ry="18"/>
+       <ellipse fill="#a67c52" cx="120" cy="140" rx="10" ry="18"/>
+       
+       <!-- Second Bear -->
+       <ellipse fill="#ba8f6d" cx="200" cy="105" rx="35" ry="40"/>
+       <!-- Head -->
+       <ellipse fill="#ba8f6d" cx="200" cy="65" rx="25" ry="22"/>
+       <!-- Ears -->
+       <ellipse fill="#8e6b4e" cx="185" cy="50" rx="8" ry="8"/>
+       <ellipse fill="#8e6b4e" cx="215" cy="50" rx="8" ry="8"/>
+       <!-- Inner Ears -->
+       <ellipse fill="#e6c5a9" cx="187" cy="50" rx="4" ry="4"/>
+       <ellipse fill="#e6c5a9" cx="213" cy="50" rx="4" ry="4"/>
+       <!-- Face -->
+       <ellipse fill="#e6c5a9" cx="200" cy="70" rx="17" ry="15"/>
+       <!-- Eyes -->
+       <ellipse fill="#000" cx="192" cy="65" rx="2.5" ry="2.5"/>
+       <ellipse fill="#000" cx="208" cy="65" rx="2.5" ry="2.5"/>
+       <!-- Nose -->
+       <ellipse fill="#4f3222" cx="200" cy="73" rx="5" ry="3"/>
+       <!-- Mouth -->
+       <path fill="none" stroke="#4f3222" stroke-width="1.5" d="M196,80 Q200,83 204,80"/>
+       <!-- Arms -->
+       <ellipse fill="#ba8f6d" cx="175" cy="110" rx="8" ry="17" transform="rotate(-20 175 110)"/>
+       <ellipse fill="#ba8f6d" cx="225" cy="110" rx="8" ry="17" transform="rotate(20 225 110)"/>
+       <!-- Legs -->
+       <ellipse fill="#ba8f6d" cx="185" cy="140" rx="8" ry="15"/>
+       <ellipse fill="#ba8f6d" cx="215" cy="140" rx="8" ry="15"/>
+       
+       <!-- Hearts between bears -->
+       <path fill="#ff6b9d" d="M150,80 C150,70 145,65 140,65 C135,65 130,70 130,75 C130,80 135,85 150,95 C165,85 170,80 170,75 C170,70 165,65 160,65 C155,65 150,70 150,80 Z"/>
+   </g>
+</svg>

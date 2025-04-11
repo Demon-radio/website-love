@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="A cute love message site with interactive bears">
+    <meta name="theme-color" content="#ff6b9d">
+    <title>Do You Love Me?</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="love-card">
+            <div class="bears-container">
+                <img id="bearsImage" src="images/bears_walking_original.svg" class="bears-image">
+            </div>
+            
+            <div id="question-container">
+                <h1 class="question">Do you love me?</h1>
+                <div class="buttons-container">
+                    <button id="yesButton" class="btn yes-btn">Yes</button>
+                    <button id="noButton" class="btn no-btn">No</button>
+                </div>
+            </div>
+
+            <!-- Add success content that will be shown when "Yes" is clicked -->
+            <div id="success-container" style="display: none;">
+                <h1 class="success-title">I knew it!</h1>
+                <p class="success-message">Thank you for loving me! ❤️</p>
+                <div class="success-bears">
+                    <img src="images/bears_hugging.svg" class="bears-hugging" alt="Bears hugging">
+                </div>
+                <div class="message-section">
+                    <h2>Messages from others who love me:</h2>
+                    <div id="messages-list">
+                        <!-- Messages will be added here from JavaScript -->
+                    </div>
+                    <div class="add-message-form">
+                        <h3>Leave your love message:</h3>
+                        <input type="text" id="nameInput" placeholder="Your name" required>
+                        <textarea id="messageInput" placeholder="Your message" rows="3" required></textarea>
+                        <button id="submitMessage" class="btn submit-btn">Send Love</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script.js"></script>
+</body>
+</html>
